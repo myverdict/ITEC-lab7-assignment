@@ -5,6 +5,6 @@ This lab demonstrates:
     <li>Capital City Guessing Game</li>
 </ul>
 
-<a href="https://myverdict.github.io/ITEC-lab7-assignment/index.html">
+<a href="https://myverdict.github.io/ITEC-lab7-assignment/">
     Click here to view live!
 </a>
