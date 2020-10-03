@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Where is the ISS?</title>
+
+    <!-- Leaflet style sheet & JavaScript -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+
+    <!-- Our personal style sheet & JavaScript -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script async defer src="fetch.js"></script>
+</head>
+
+<body>
+    <h1>Where is the ISS?</h1>
+
+    <div>
+        <p id="time"></p>
+        <p>
+            ISS Latitude:                               <!-- North/South -->
+            <span id="iss-lat"></span>
+        </p>
+
+        <p>
+            ISS Longitude:                              <!-- East/West -->
+            <span id="iss-long"></span>
+        </p>
+    </div>
+
+    <div id="iss-map"></div>
+
+    <footer>
+        <p>Icon by iss by Viktor Korobkov from the Noun Project</p>
+    </footer>
+</body>
+
+</html>
